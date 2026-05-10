@@ -1,0 +1,58 @@
+{
+  "paths": {
+    "db_path": "db.db",
+    "log_path": "rss.log",
+    "backup_folder": "backups"
+  },
+  "feeds": {
+    "finnish_news": {
+      "Iltalehti": "https://www.iltalehti.fi/rss/uutiset.xml",
+      "Ilta-Sanomat": "https://www.is.fi/rss/tuoreimmat.xml",
+      "Yle": "https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET",
+      "Helsingin Sanomat": "https://www.hs.fi/rss/tuoreimmat.xml"
+    },
+    "cyber_news": {
+      "Krebsonsecurity": "https://krebsonsecurity.com/feed/",
+      "The Hacker News": "https://feeds.feedburner.com/TheHackersNews",
+      "CISA Alerts": "https://www.cisa.gov/news.xml",
+      "Secure list": "https://securelist.com/feed/",
+      "BleepingComputer": "https://www.bleepingcomputer.com/feed/"
+    }
+  },
+  "custom_english_stopwords": [
+    "and", "the", "that", "for", "with", "from", "are", "this", "via", "is", "on", "in", "to", "by",
+    "of", "a", "as", "be", "an", "it", "has", "at", "will", "have", "was", "not", "or", "can", "but",
+    "new", "more", "all", "its", "we", "which", "their", "than", "you", "may", "any", "also", "they",
+    "been", "were", "over", "out", "one", "there", "such", "no", "after", "about", "had", "some",
+    "into", "his", "who", "when", "them"
+  ],
+  "custom_finnish_stopwords": [
+    "kertoo", "myös", "näin", "voi", "sai", "saa", "muun", "muassa", "sitten"
+  ],
+  "tag_keywords": {
+  "malware": ["trojan", "virus", "worm", "spyware", "adware", "keylogger"],
+  "ransomware": ["ransomware", "ransom", "locker", "cryptolocker", "double extortion"],
+  "apt": ["apt", "advanced persistent threat", "nation-state", "cyber espionage", "persistent attack"],
+  "zero-day": ["zero-day", "0day", "unpatched", "unknown vulnerability"],
+  "phishing": ["phishing", "spoofed", "credential harvesting", "fake login", "social engineering", "fraudulent email"],
+  "backdoor": ["backdoor", "remote access", "unauthorized access"],
+  "ddos": ["ddos", "distributed denial of service", "botnet attack"],
+  "botnet": ["botnet", "zombie network"],
+  "rootkit": ["rootkit", "stealth malware"],
+  "exploit": ["exploit", "exploitation", "vulnerability abuse", "cve-"],
+  "sql-injection": ["sql injection", "sqli", "database exploit"],
+  "xss": ["cross-site scripting", "xss", "client-side code injection"],
+  "mitm": ["man in the middle", "mitm", "eavesdropping"],
+  "bruteforce": ["brute-force", "password guessing", "credential stuffing"],
+  "spyware": ["spyware", "keylogger", "data theft"],
+  "adware": ["adware", "popup malware"],
+  "supply-chain": ["supply chain attack", "third-party compromise", "vendor breach"],
+  "data-leak": ["data leak", "data exposure", "information disclosure"],
+  "crypto-scam": ["cryptocurrency scam", "crypto fraud", "bitcoin scam", "token fraud"],
+  "credential-dump": ["credential dump", "password leak", "database dump"]
+  },
+  "favorite_keywords" : ["elon", "cve", "ransomware"],
+  "scheduler": {
+    "interval_minutes": 30
+  }
+}
