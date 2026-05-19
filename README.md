@@ -4,7 +4,7 @@
 
 Modulaarinen Python-pohjainen RSS-lukija ja uutisanalysoija, joka hakee, tallentaa, kategorisoi ja analysoi uutisartikkeleita useista RSS-syötteistä SQLite-tietokantaan.
 
-Projekti on toteutettu osana ohjelmistokehityksen ja kyberturvallisuuden opiskelua. Sovellus keskittyy erityisesti automaatioon, modulaariseen arkkitehtuuriin, tietokantoihin, tekstin käsittelyyn sekä käytännön backend-kehitykseen Pythonilla.
+Sovellus keskittyy erityisesti automaatioon, modulaariseen arkkitehtuuriin, tietokantoihin, tekstin käsittelyyn sekä käytännön backend-kehitykseen Pythonilla.
 
 ---
 
